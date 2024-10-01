@@ -1,0 +1,4265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>arabalar_ekran</class>
+ <widget class="QMainWindow" name="arabalar_ekran">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1351</width>
+    <height>883</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(82, 158, 168);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="kumasarabalariyazi_lbl">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1351</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Kumaş Arabaları&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a1_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A1</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a1_img">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a2_btn">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A2</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a2_img">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a5_btn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A5</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a5_img">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a4_img">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a4_btn">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A4</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a13_img">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a13_btn">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A13</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a6_img">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a6_btn">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A6</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a10_img">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a10_btn">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A10</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a12_img">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a12_btn">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A12</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a7_img">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a7_btn">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A7</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a3_img">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a3_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A3</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a11_img">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a11_btn">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A11</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a9_img">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a9_btn">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A9</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a8_img">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a8_btn">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A8</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a14_img">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>90</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a14_btn">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>60</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A14</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a18_btn">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A18</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a20_btn">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A20</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a22_img">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a25_img">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a27_btn">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A27</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a17_img">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a27_img">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a18_img">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a21_btn">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A21</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a19_btn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A19</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a28_btn">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A28</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a26_btn">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A26</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a16_btn">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A16</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a20_img">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a16_img">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a19_img">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a26_img">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a24_img">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a22_btn">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A22</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a25_btn">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A25</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a17_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A17</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a23_btn">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A23</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a28_img">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a15_img">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a23_img">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a24_btn">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A24</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a15_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>170</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A15</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a21_img">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>200</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a32_btn">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A32</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a34_btn">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A34</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a36_img">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a39_img">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a41_btn">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A41</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a31_img">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a41_img">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a32_img">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a35_btn">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A35</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a33_btn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A33</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a42_btn">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A42</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a40_btn">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A40</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a30_btn">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A30</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a34_img">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a30_img">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a33_img">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a40_img">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a38_img">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a36_btn">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A36</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a39_btn">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A39</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a31_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A31</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a37_btn">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A37</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a42_img">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a29_img">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a37_img">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a38_btn">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A38</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a29_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>280</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A29</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a35_img">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>310</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a46_btn">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A46</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a48_btn">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A48</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a50_img">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a53_img">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a55_btn">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A55</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a45_img">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a55_img">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a46_img">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a49_btn">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A49</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a47_btn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A47</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a56_btn">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A56</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a54_btn">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A54</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a44_btn">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A44</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a48_img">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a44_img">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a47_img">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a54_img">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a52_img">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a50_btn">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A50</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a53_btn">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A53</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a45_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A45</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a51_btn">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A51</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a56_img">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a43_img">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a51_img">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a52_btn">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A52</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a43_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>380</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A43</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a49_img">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>410</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a60_btn">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A60</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a62_btn">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A62</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a64_img">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a67_img">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a69_btn">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A69</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a59_img">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a69_img">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a60_img">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a63_btn">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A63</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a61_btn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A61</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a70_btn">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A70</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a68_btn">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A68</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a58_btn">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A58</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a62_img">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a58_img">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a61_img">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a68_img">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a66_img">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a64_btn">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A64</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a67_btn">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A67</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a59_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A59</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a65_btn">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A65</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a70_img">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a57_img">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a65_img">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a66_btn">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A66</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a57_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>490</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A57</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a63_img">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>520</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a74_btn">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A74</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a76_btn">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A76</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a78_img">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a81_img">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a83_btn">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A83</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a73_img">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a83_img">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a74_img">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a77_btn">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A77</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a75_btn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A75</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a84_btn">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A84</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a82_btn">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A82</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a72_btn">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A72</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a76_img">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a72_img">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a75_img">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a82_img">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a80_img">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a78_btn">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A78</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a81_btn">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A81</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a73_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A73</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a79_btn">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A79</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a84_img">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a71_img">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a79_img">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a80_btn">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A80</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a71_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>600</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A71</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a77_img">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>630</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a88_btn">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A88</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a90_btn">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A90</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a92_img">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a95_img">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a97_btn">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A97</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a87_img">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a97_img">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a88_img">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a91_btn">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A91</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a89_btn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A89</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a98_btn">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A98</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a96_btn">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A96</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a86_btn">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A86</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a90_img">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a86_img">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a89_img">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a96_img">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a94_img">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a92_btn">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A92</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a95_btn">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A95</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a87_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A87</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a93_btn">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A93</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a98_img">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a85_img">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a93_img">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a94_btn">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A94</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a85_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>710</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A85</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a91_img">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>740</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a102_btn">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>810</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A102</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a101_img">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>840</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a102_img">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>840</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a103_btn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>810</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A103</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a100_btn">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>810</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A100</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a100_img">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>840</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a103_img">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>840</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a101_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>810</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A101</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="a99_img">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>840</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 217, 217);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a99_btn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>810</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163, 221, 229);</string>
+    </property>
+    <property name="text">
+     <string>A99</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
